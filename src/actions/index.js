@@ -1,7 +1,7 @@
 import axios from "axios";
 import { FETCH_COLORS, COLOR_SELECTED } from './types';
 
-const ROOT_URL = 'http://www.mocky.io/v2/5a37a7403200000f10eb6a2d';
+const ROOT_URL = 'https://www.mocky.io/v2/5a37a7403200000f10eb6a2d';
 
 export function fetchColors() {
     const url = ROOT_URL;
