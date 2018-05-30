@@ -1,0 +1,2 @@
+export const FETCH_COLORS = "FETCH_COLORS";
+export const COLOR_SELECTED = "COLOR_SELECTED";

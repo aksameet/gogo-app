@@ -1,0 +1,36 @@
+.root {
+  background: url("../assets/React-icon.svg") no-repeat center center; }
+
+.wrapper {
+  height: 100vh;
+  width: 100vw; }
+
+.content-color-list {
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.colors-input {
+  display: block;
+  width: 50%; }
+
+.colors-button {
+  display: block;
+  width: 10%;
+  padding: 10px; }
+
+.colors-list {
+  width: 50%;
+  max-height: 400px;
+  display: block;
+  border: 1px solid lightgrey;
+  background-color: white;
+  list-style: none;
+  padding-left: 0;
+  overflow-y: scroll; }
+
+.colors-item {
+  padding: 10px;
+  cursor: pointer; }
+  .colors-item:hover {
+    background-color: lightgrey; }
